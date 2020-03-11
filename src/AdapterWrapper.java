@@ -2,20 +2,23 @@ public class AdapterWrapper extends RacingCar implements ICarSpec {
 
 	@Override
 	public int getMaxSpeed() {
-		// TODO Auto-generated method stub
-		return 0;
+		
+		return getTopSpeedRacingMode();
 	}
 
 	@Override
 	public String getfullCarname() {
-		// TODO Auto-generated method stub
-		return null;
+
+		String make = getMake();
+		String model = getModel();
+		String year = getYear();
+		String concatenatedString = "This vehicle is a " + year + " " + make + " " + model + ".";
+		return concatenatedString;
 	}
 
 	@Override
 	public double getCarFuelCap() {
-		// TODO Auto-generated method stub
-		return 0;
+		return getCarFuelCapacity();
 	}
 
 }

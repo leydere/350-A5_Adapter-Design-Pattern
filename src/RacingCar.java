@@ -1,12 +1,12 @@
 
 public class RacingCar {
 	
-	int topRacingSpeed;
-	int topNormalSpeed;
-	String make;
-	String model;
-	String year;
-	double fuelCapacity;
+	int topRacingSpeed = 100;
+	int topNormalSpeed = 60;
+	String make = "Toyota";
+	String model = "Corolla";
+	String year = "1998";
+	double fuelCapacity = 30.3;
 	
 	
 	public int getTopSpeedRacingMode() {
