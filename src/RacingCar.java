@@ -1,34 +1,42 @@
 
 public class RacingCar {
 	
+	int topRacingSpeed;
+	int topNormalSpeed;
+	String make;
+	String model;
+	String year;
+	double fuelCapacity;
+	
+	
 	public int getTopSpeedRacingMode() {
 		
-		return -1;
+		return topRacingSpeed;
 	}
 
 	public int getTopSpeedNormalMode() {
 		
-		return -1;
+		return topNormalSpeed;
 	}
 
 	public String getMake() {
 		
-		return "ham";
+		return make;
 	}
 
 	public String getModel() {
 		
-		return "ham";
+		return model;
 	}
 
 	public String getYear() {
 		
-		return "ham";
+		return year;
 	}
 
 	//set this to return double; assignment did not declare it as return type or void so made assumption
 	public double getCarFuelCapacity() {
 		
-		return -1;
+		return fuelCapacity;
 	}
 }
