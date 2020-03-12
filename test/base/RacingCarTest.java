@@ -8,32 +8,38 @@ class RacingCarTest {
 
 	@Test
 	void testGetTopSpeedRacingMode() {
-		fail("Not yet implemented");
+		RacingCar tester = new RacingCar();
+		assertEquals(100, tester.getTopSpeedRacingMode(), "Result must be 100");
 	}
 
 	@Test
 	void testGetTopSpeedNormalMode() {
-		fail("Not yet implemented");
+		RacingCar tester = new RacingCar();
+		assertEquals(60, tester.getTopSpeedNormalMode(), "Result must be 60");
 	}
 
 	@Test
 	void testGetMake() {
-		fail("Not yet implemented");
+		RacingCar tester = new RacingCar();
+		assertEquals("Toyota", tester.getMake(), "Result must be: 'Totoyta'");
 	}
 
 	@Test
 	void testGetModel() {
-		fail("Not yet implemented");
+		RacingCar tester = new RacingCar();
+		assertEquals("Corolla", tester.getModel(), "Result must be: 'Corolla'");
 	}
 
 	@Test
 	void testGetYear() {
-		fail("Not yet implemented");
+		RacingCar tester = new RacingCar();
+		assertEquals("1998", tester.getYear(), "Result must be: '1998'");
 	}
 
 	@Test
 	void testGetCarFuelCapacity() {
-		fail("Not yet implemented");
+		RacingCar tester = new RacingCar();
+		assertEquals(30.3, tester.getCarFuelCapacity(), "Result must be 30.3");
 	}
 
 }
