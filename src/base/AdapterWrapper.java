@@ -1,3 +1,4 @@
+package base;
 public class AdapterWrapper extends RacingCar implements ICarSpec {
 
 	@Override

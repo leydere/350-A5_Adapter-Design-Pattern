@@ -1,3 +1,4 @@
+package base;
 
 public interface ICarSpec {
 	public int getMaxSpeed();
